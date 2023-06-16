@@ -11,3 +11,5 @@ for count, element in enumerate(mylist):
 
 if 50 in mylist:
     print("Si esta el 50")
+
+thisdict = {"brand: ford"}
