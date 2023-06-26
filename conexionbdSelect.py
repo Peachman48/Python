@@ -30,7 +30,7 @@ try:
         host=hosts, user=users, password=passwords, port=ports, database=databases
     )
     cursor = conexion.cursor()
-    cursor.execute("Show tables")
+    cursor.execute("Select * From maestro")
     for i in cursor:
         print(i)
     print("Conexion correcta")
